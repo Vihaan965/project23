@@ -1,0 +1,53 @@
+body {
+    background-color: darkblue;
+    color: aqua;
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.cyan {
+    color: blue;
+    font-family: cursive;
+}
+
+.blue {
+    background-color: black;
+    color: floralwhite;
+    font-family: cursive;
+}
+
+.black {
+    background-color: darkblue;
+    color: aqua;
+    font-family: cursive;
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+    background-color: aqua;
+    font-family: 'Pattaya', sans-serif;
+}
+
+.links {
+    display: inline;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    list-style: none;
+    cursor: pointer;
+    color: black;
+}
+
+.links:hover {
+    background-color: red;
+    font-size: 25px;
+}
